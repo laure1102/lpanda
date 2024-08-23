@@ -1,0 +1,21 @@
+{
+    "rolenames": [
+        "zh-HK-HiuGaaiNeural",
+        "zh-HK-HiuMaanNeural",
+        "zh-HK-WanLungNeural",
+        "zh-CN-XiaoxiaoNeural",
+        "zh-CN-XiaoyiNeural",
+        "zh-CN-YunjianNeural",
+        "zh-CN-YunxiNeural",
+        "zh-CN-YunxiaNeural",
+        "zh-CN-YunyangNeural",
+        "zh-CN-liaoning-XiaobeiNeural",
+        "zh-TW-HsiaoChenNeural",
+        "zh-TW-YunJheNeural",
+        "zh-TW-HsiaoYuNeural",
+        "zh-CN-shaanxi-XiaoniNeural"
+    ],
+    "sd_models": [],
+    "sd_vaes": [],
+    "sd_samplers": []
+}

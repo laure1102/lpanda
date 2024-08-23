@@ -1,0 +1,39 @@
+{
+  "name": "lpanda",
+  "version": "1.0.1",
+  "description": "ai 小说生成推文漫画视频",
+  "keywords": [],
+  "main": "electron/index.js",
+  "scripts": {
+    "start": "concurrently -k \"npm run dev\" \"npm run electron\"",
+    "dev": "vite",
+    "dev:el": "cross-env NODE_ENV=development electron .",
+    "build": "vite build && npm run buildpy",
+    "preview": "vite preview",
+    "electron": "wait-on tcp:3000 &&  npm run dev:el",
+    "buildpy": "node ./libs/build_py_scripts.js",
+    "package": "npm run build && node ./package-el.js",
+    "release": "npm run package"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "cross-env": "^7.0.3",
+    "electron": "^17.2.0",
+    "electron-builder": "^22.14.13",
+    "sass": "^1.49.9",
+    "vite": "^2.8.0",
+    "wait-on": "^6.0.1",
+    "electron-packager": "^17.1.2"
+  },
+  "dependencies": {
+    "view-design": "^4.0.0",
+    "vite-plugin-vue2": "^1.9.3",
+    "vue": "^2.6.14",
+    "vue-router": "3.0.1",
+    "vue-template-compiler": "^2.6.14",
+    "vuex": "3.0.1",
+    "winston": "^3.13.0"
+  },
+  "author": "laure",
+  "license": ""
+}

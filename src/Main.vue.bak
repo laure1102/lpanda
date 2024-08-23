@@ -1,0 +1,47 @@
+<template>
+    <div id="root" class="root">
+        <Layout>
+            <Header>
+                <Menu ref="rootMenu" mode="horizontal" theme="light" :active-name="activeMenu">
+                    <MenuItem name="app" to="/">
+                        <Icon type="md-laptop" />
+                        应用
+                    </MenuItem>
+                    <MenuItem name="setting" to="/setting">
+                        <Icon type="md-cog" />
+                        设置
+                    </MenuItem>
+                </Menu>
+            </Header>
+            <Content>
+                <router-view></router-view>
+            </Content>
+        </Layout>
+    </div>
+</template>
+
+<script>
+
+export default {
+    name: 'Main',
+    data(){
+        return {
+            activeMenu:"app",
+        }
+    },
+    created(){
+        // let vue = this;
+        // vue.$nextTick(()=>{
+        //     console.log(vue.$refs['rootMenu']);
+        //     vue.$refs['rootMenu'].updateActiveName("app");
+        // });
+    },
+}
+</script>
+
+<style lang="scss" scoped>
+.ivu-layout-header{
+    background: none;
+    padding: 0 10px;
+}
+</style>
