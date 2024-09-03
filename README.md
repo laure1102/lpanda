@@ -7,6 +7,7 @@
 ##开发环境准备：
   ### 要求python3.10+ ,node.js 14+
 
+  进入项目目录
   ### python -m venv py
   ### .\py\Scripts\pip.exe install -r .\requirements.txt
 
