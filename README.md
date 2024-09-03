@@ -12,9 +12,14 @@
 
 
   ### 下载ffmpeg，放到pscripts/libs目录下。
+  也可以到网盘下载ffmpeg:
+  通过网盘分享的文件：ffmpeg
+链接: https://pan.baidu.com/s/1hgtTEKsvWGG9k5gYMAwVTw?pwd=pwvs 提取码: pwvs 
 
 
 最后npm start运行程序
 
 ![x](1.png)
 ![x](2.png)
+
+![x](3.png)
