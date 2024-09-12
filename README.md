@@ -28,7 +28,4 @@ npm install
 ![x](3.png)
 
 ##demo视频
-<video controls>
-  <source src="demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[demo视频](demo.mp4)
